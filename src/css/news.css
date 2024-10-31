@@ -1,0 +1,249 @@
+.news {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news_left {
+    width: 60%;
+    display: inline-block;
+    position: relative;
+}
+
+.news_title {
+    color: black;
+    margin-top: 0;
+    margin-bottom: 2%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.news_describes {
+    color: #9b9b9b;
+    margin-top: 0;
+    margin-bottom: 2%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.news_information{
+    position: relative;
+}
+
+.news_information_first {
+    position: relative;
+    color: #9b9b9b;
+    display: inline-block;
+    margin: 0;
+}
+
+.news_information_second {
+    color: #9b9b9b;
+    display: inline-block;
+    float: right;
+    position: relative;
+    margin: 0;
+}
+
+.news_middle {
+    width: 5%;
+    display: inline-block;
+}
+
+.news_img {
+    width: 34%;
+}
+
+/* .people {
+    color: #000;
+    position: absolute;
+    margin-left: 3px;
+    margin-top: 11px;
+    width: 14px;
+    height: 6px;
+    border-left: solid 1px currentColor;
+    border-right: solid 1px currentColor;
+    border-top: solid 1px currentColor;
+    border-bottom: solid 1px transparent;
+    border-radius: 6px 6px 0 0;
+}
+
+.people::before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -10px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: solid 1px currentColor;
+} */
+
+.placeholding{
+    display: block;
+    position: relative;
+}    
+
+@media screen and (min-width:1600px) {
+    .news_title {
+        font-size: 32px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 30px;
+    }
+
+    .people {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (min-width:1400px) and (max-width:1599.9px) {
+    .news_title {
+        font-size: 30px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 28px;
+    }
+    
+    .people {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media screen and (min-width:1200px) and (max-width:1399.9px) {
+    .news_title {
+        font-size: 28px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 26px;
+    }
+
+    .people {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1199.9px) {
+    .news_title {
+        font-size: 26px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 24px;
+    }
+
+    .people {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (min-width:800px) and (max-width:999.9px) {
+    .news_title {
+        font-size: 24px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 22px;
+    }
+
+    .people {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:799.9px) {
+    .news_title {
+        font-size: 22px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 20px;
+    }
+
+    .people {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:599.9px) {
+    .news_title {
+        font-size: 20px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 18px;
+    }
+
+    .people {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:399.9px) {
+    .news_title {
+        font-size: 19px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 17px;
+    }
+
+    .people {
+        width: 17px;
+        height: 17px;
+    }
+}
+
+@media screen and (max-width:349.9px) {
+    .news_title {
+        font-size: 18px;
+    }
+
+    .news_information,
+    .news_information_first,
+    .news_information_second,
+    .news_describes {
+        font-size: 16px;
+    }
+
+    .people {
+        width: 16.5px;
+        height: 16.5px;
+    }
+}

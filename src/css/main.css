@@ -1,0 +1,54 @@
+a {
+    text-decoration: none;
+}
+
+
+.app{
+    position: relative;
+}
+
+
+/* 标题样式 */
+
+.header{
+    width: 100%;
+    background-color: rgb(66, 165, 246);
+}
+
+.header_title{
+    text-align: center;
+}
+
+
+/* 导航样式 */
+
+.navigate {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.nav_options{
+    width: 33%;
+    display: inline-block;
+}
+
+.navigate a.end_nav {
+    color: #1890ff;
+}
+
+.navigate a {
+    width: 100%;
+    color: #666;
+}
+
+.nav_p{
+    text-align: center;
+}
+
+/* 主题样式 */
+
+.silence_theme{
+    filter: grayscale(1);
+}

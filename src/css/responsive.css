@@ -1,0 +1,341 @@
+/* @media  screen and (min-width:1600px) {
+    
+}
+
+@media  screen and (min-width:1400px) and (max-width:1599.9px) {   
+    
+}
+
+@media  screen and (min-width:1200px) and (max-width:1399.9px) {   
+    
+}
+
+@media  screen and (min-width:1000px) and (max-width:1199.9px) {   
+    
+}
+
+@media  screen and (min-width:800px) and (max-width:999.9px) {   
+    
+}
+
+@media  screen and (min-width:600px) and (max-width:799.9px) {   
+    
+}
+
+@media  screen and (min-width:400px) and (max-width:599.9px) {   
+    
+}
+
+@media  screen and (min-width:350px) and (max-width:399.9px) {   
+    
+}
+
+@media  screen and (max-width:349.9px){    
+    
+} */
+
+@media  screen and (min-width:1600px) {
+    /* 搜索 */
+    .search_body{
+        height: 60px;
+    }
+
+    .search_input{
+        font-size: 30px;
+    }
+
+    /* 换行 */
+    .header_top{
+        height: 13px;
+    }
+
+    .header_bottom{
+        height:13px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 26px;
+    }
+
+    /* p标签 */
+    .header_title{
+        font-size: 45px;
+    }
+
+    .nav_p{
+        font-size: 30px;
+    }
+}
+
+@media  screen and (min-width:1400px) and (max-width:1599.9px) {   
+    /* 搜索 */
+    .search_body{
+        height: 56px;
+    }
+
+    .search_input{
+        font-size: 27px;
+    }
+ 
+    /* 换行 */
+    .header_top{
+        height: 12px;
+    }
+
+    .header_bottom{
+        height:12px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 24px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 42px;
+    }
+
+    .nav_p{
+        font-size: 28px;
+    }
+}
+
+@media  screen and (min-width:1200px) and (max-width:1399.9px) {    
+    /* 搜索 */
+    .search_body{
+        height: 52px;
+    }
+
+    .search_input{
+        font-size: 24px;
+    }
+
+    /* 换行 */
+    .header_top{
+        height: 11px;
+    }
+
+    .header_bottom{
+        height:11px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 22px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 39px;
+    }
+
+    .nav_p{
+        font-size: 26px;
+    }
+}
+
+@media  screen and (min-width:1000px) and (max-width:1199.9px) { 
+    /* 搜索 */
+    .search_body{
+        height: 48px;
+    }
+
+    .search_input{
+        font-size: 21px;
+    }
+   
+    /* 换行 */
+    .header_top{
+        height: 10px;
+    }
+
+    .header_bottom{
+        height:10px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 20px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 36px;
+    }
+
+    .nav_p{
+        font-size: 24px;
+    }
+}
+
+@media  screen and (min-width:800px) and (max-width:999.9px) {  
+    /* 搜索 */
+    .search_body{
+        height: 44px;
+    }
+
+    .search_input{
+        font-size: 18px;
+    }
+  
+    /* 换行 */
+    .header_top{
+        height: 9px;
+    }
+
+    .header_bottom{
+        height:9px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 18px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 33px;
+    }
+
+    .nav_p{
+        font-size: 22px;
+    }
+}
+
+@media  screen and (min-width:600px) and (max-width:799.9px) {   
+    /* 搜索 */
+    .search_body{
+        height: 40px;
+    }
+
+    .search_input{
+        font-size: 16px;
+    }
+ 
+    /* 换行 */
+    .header_top{
+        height: 8px;
+    }
+
+    .header_bottom{
+        height:8px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 16px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 30px;
+    }
+
+    .nav_p{
+        font-size: 20px;
+    }
+}
+
+@media  screen and (min-width:400px) and (max-width:599.9px) {   
+    /* 搜索 */
+    .search_body{
+        height: 38px;
+    }
+
+    .search_input{
+        font-size: 15px;
+    }
+ 
+    /* 换行 */
+    .header_top{
+        height: 7px;
+    }
+
+    .header_bottom{
+        height:7px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 14px;
+    }
+
+    /* p标签 */
+    .header_title{
+        font-size: 27px;
+    }
+
+    .nav_p{
+        font-size: 19px;
+    }
+}
+
+@media  screen and (min-width:350px) and (max-width:399.9px) {   
+    /* 搜索 */
+    .search_body{
+        height: 36px;
+    }
+
+    .search_input{
+        font-size: 14px;
+    }
+ 
+    /* 换行 */
+    .header_top{
+        height: 6.5px;
+    }
+
+    .header_bottom{
+        height: 6.5px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 13px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 25px;
+    }
+
+    .nav_p{
+        font-size: 18px;
+    }
+}
+
+@media  screen and (max-width:349.9px){    
+    /* 搜索 */
+    .search_body{
+        height: 35px;
+    }
+
+    .search_input{
+        font-size: 14px;
+    }
+
+    /* 换行 */
+    .header_top{
+        height: 6px;
+    }
+
+    .header_bottom{
+        height:6px
+    }
+
+    .search_top,
+    .search_bottom{
+        height: 12px;
+    }
+
+    /* p标签 */    
+    .header_title{
+        font-size: 23px;
+    }
+
+    .nav_p{
+        font-size: 16px;
+    }
+}
